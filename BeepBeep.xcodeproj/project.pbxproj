@@ -7,21 +7,57 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0ECFE11EE34A13AC6AC2328F /* Pods_BeepBeep.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D35BD3E5F66329D45F5FC25 /* Pods_BeepBeep.framework */; };
+		AB027C0521C41D2000544C83 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB027C0421C41D2000544C83 /* Message.swift */; };
+		AB1EF2A021B85F43007C0931 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AB1EF29F21B85F42007C0931 /* GoogleService-Info.plist */; };
+		AB20690C21F6608A00F57C68 /* LastCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB20690B21F6608A00F57C68 /* LastCell.swift */; };
+		AB25A9142218374C00FEB7A7 /* BounceButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB25A9132218374C00FEB7A7 /* BounceButton.swift */; };
+		AB39AC6E21BECBBC004BCBDE /* NewMainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB39AC6D21BECBBC004BCBDE /* NewMainController.swift */; };
+		AB39AC7121BF0FB8004BCBDE /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB39AC7021BF0FB8004BCBDE /* User.swift */; };
+		AB39AC7321C19325004BCBDE /* SendMessageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB39AC7221C19324004BCBDE /* SendMessageController.swift */; };
+		AB7F531D21ED77D60030219C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7F531C21ED77D60030219C /* Extensions.swift */; };
+		AB8175EA225F53BD0027CBF2 /* slow-spring-board.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AB8175E9225F53BC0027CBF2 /* slow-spring-board.mp3 */; };
+		AB819F8A21E7AAD40033B191 /* CheckViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB819F8921E7AAD40033B191 /* CheckViewController.swift */; };
+		AB819F8C21E7F76E0033B191 /* PageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB819F8B21E7F76E0033B191 /* PageCell.swift */; };
+		ABAF020D221CA324009FBB4F /* PopItUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAF020C221CA324009FBB4F /* PopItUp.swift */; };
+		ABD6606121B5B30200A8801C /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD6606021B5B30200A8801C /* LoginController.swift */; };
+		ABE65D5321EA224C003A3259 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE65D5221EA224C003A3259 /* Page.swift */; };
+		ABF49E7C21F51636001CED09 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF49E7B21F51636001CED09 /* SettingsViewController.swift */; };
+		ABF6EBCE222720DF00BB7619 /* MessageBeenSent.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF6EBCD222720DF00BB7619 /* MessageBeenSent.swift */; };
 		ABFEB4BE21B590CB001F0A5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFEB4BD21B590CB001F0A5D /* AppDelegate.swift */; };
-		ABFEB4C021B590CB001F0A5D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFEB4BF21B590CB001F0A5D /* ViewController.swift */; };
+		ABFEB4C021B590CB001F0A5D /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFEB4BF21B590CB001F0A5D /* MainController.swift */; };
 		ABFEB4C321B590CB001F0A5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABFEB4C121B590CB001F0A5D /* Main.storyboard */; };
 		ABFEB4C521B590D1001F0A5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABFEB4C421B590D1001F0A5D /* Assets.xcassets */; };
 		ABFEB4C821B590D1001F0A5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABFEB4C621B590D1001F0A5D /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9D35BD3E5F66329D45F5FC25 /* Pods_BeepBeep.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BeepBeep.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A663BB91FD64F17E48181E2A /* Pods-BeepBeep.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeepBeep.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BeepBeep/Pods-BeepBeep.debug.xcconfig"; sourceTree = "<group>"; };
+		AB027C0421C41D2000544C83 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		AB1EF29F21B85F42007C0931 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		AB20690B21F6608A00F57C68 /* LastCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastCell.swift; sourceTree = "<group>"; };
+		AB25A9132218374C00FEB7A7 /* BounceButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BounceButton.swift; sourceTree = "<group>"; };
+		AB39AC6D21BECBBC004BCBDE /* NewMainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMainController.swift; sourceTree = "<group>"; };
+		AB39AC7021BF0FB8004BCBDE /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		AB39AC7221C19324004BCBDE /* SendMessageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendMessageController.swift; sourceTree = "<group>"; };
+		AB7F531C21ED77D60030219C /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		AB8175E9225F53BC0027CBF2 /* slow-spring-board.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "slow-spring-board.mp3"; sourceTree = "<group>"; };
+		AB819F8921E7AAD40033B191 /* CheckViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckViewController.swift; sourceTree = "<group>"; };
+		AB819F8B21E7F76E0033B191 /* PageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageCell.swift; sourceTree = "<group>"; };
+		ABAF020C221CA324009FBB4F /* PopItUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopItUp.swift; sourceTree = "<group>"; };
+		ABD6606021B5B30200A8801C /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		ABE65D5221EA224C003A3259 /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
+		ABF49E7B21F51636001CED09 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		ABF6EBCD222720DF00BB7619 /* MessageBeenSent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageBeenSent.swift; sourceTree = "<group>"; };
 		ABFEB4BA21B590CB001F0A5D /* BeepBeep.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeepBeep.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABFEB4BD21B590CB001F0A5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		ABFEB4BF21B590CB001F0A5D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ABFEB4BF21B590CB001F0A5D /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
 		ABFEB4C221B590CB001F0A5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ABFEB4C421B590D1001F0A5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ABFEB4C721B590D1001F0A5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ABFEB4C921B590D1001F0A5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCB9410D969DA6D607DE9469 /* Pods-BeepBeep.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeepBeep.release.xcconfig"; path = "Pods/Target Support Files/Pods-BeepBeep/Pods-BeepBeep.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +65,48 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0ECFE11EE34A13AC6AC2328F /* Pods_BeepBeep.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AB39AC6F21BF0F71004BCBDE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AB39AC7021BF0FB8004BCBDE /* User.swift */,
+				AB027C0421C41D2000544C83 /* Message.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ABD6605F21B5B28100A8801C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				ABD6606021B5B30200A8801C /* LoginController.swift */,
+				AB39AC6D21BECBBC004BCBDE /* NewMainController.swift */,
+				AB39AC7221C19324004BCBDE /* SendMessageController.swift */,
+				AB819F8921E7AAD40033B191 /* CheckViewController.swift */,
+				AB819F8B21E7F76E0033B191 /* PageCell.swift */,
+				ABE65D5221EA224C003A3259 /* Page.swift */,
+				AB8175E9225F53BC0027CBF2 /* slow-spring-board.mp3 */,
+				ABF49E7B21F51636001CED09 /* SettingsViewController.swift */,
+				AB20690B21F6608A00F57C68 /* LastCell.swift */,
+				ABAF020C221CA324009FBB4F /* PopItUp.swift */,
+				ABFEB4BD21B590CB001F0A5D /* AppDelegate.swift */,
+				ABF6EBCD222720DF00BB7619 /* MessageBeenSent.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		ABFEB4B121B590CB001F0A5D = {
 			isa = PBXGroup;
 			children = (
 				ABFEB4BC21B590CB001F0A5D /* BeepBeep */,
 				ABFEB4BB21B590CB001F0A5D /* Products */,
+				CF6861A22B22746A84F14491 /* Pods */,
+				F3D8C9638D6AE429758AEAB8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +121,35 @@
 		ABFEB4BC21B590CB001F0A5D /* BeepBeep */ = {
 			isa = PBXGroup;
 			children = (
-				ABFEB4BD21B590CB001F0A5D /* AppDelegate.swift */,
-				ABFEB4BF21B590CB001F0A5D /* ViewController.swift */,
+				AB39AC6F21BF0F71004BCBDE /* Model */,
+				ABD6605F21B5B28100A8801C /* Controller */,
+				ABFEB4BF21B590CB001F0A5D /* MainController.swift */,
 				ABFEB4C121B590CB001F0A5D /* Main.storyboard */,
 				ABFEB4C421B590D1001F0A5D /* Assets.xcassets */,
 				ABFEB4C621B590D1001F0A5D /* LaunchScreen.storyboard */,
 				ABFEB4C921B590D1001F0A5D /* Info.plist */,
+				AB1EF29F21B85F42007C0931 /* GoogleService-Info.plist */,
+				AB7F531C21ED77D60030219C /* Extensions.swift */,
+				AB25A9132218374C00FEB7A7 /* BounceButton.swift */,
 			);
 			path = BeepBeep;
+			sourceTree = "<group>";
+		};
+		CF6861A22B22746A84F14491 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A663BB91FD64F17E48181E2A /* Pods-BeepBeep.debug.xcconfig */,
+				DCB9410D969DA6D607DE9469 /* Pods-BeepBeep.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F3D8C9638D6AE429758AEAB8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9D35BD3E5F66329D45F5FC25 /* Pods_BeepBeep.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +159,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ABFEB4CC21B590D1001F0A5D /* Build configuration list for PBXNativeTarget "BeepBeep" */;
 			buildPhases = (
+				3A92D48A362E268CE022A372 /* [CP] Check Pods Manifest.lock */,
 				ABFEB4B621B590CB001F0A5D /* Sources */,
 				ABFEB4B721B590CB001F0A5D /* Frameworks */,
 				ABFEB4B821B590CB001F0A5D /* Resources */,
+				7775A83E073ED135707821F2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,19 +214,90 @@
 			files = (
 				ABFEB4C821B590D1001F0A5D /* LaunchScreen.storyboard in Resources */,
 				ABFEB4C521B590D1001F0A5D /* Assets.xcassets in Resources */,
+				AB1EF2A021B85F43007C0931 /* GoogleService-Info.plist in Resources */,
 				ABFEB4C321B590CB001F0A5D /* Main.storyboard in Resources */,
+				AB8175EA225F53BD0027CBF2 /* slow-spring-board.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3A92D48A362E268CE022A372 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BeepBeep-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7775A83E073ED135707821F2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BeepBeep/Pods-BeepBeep-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Onboard/Onboard.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Onboard.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BeepBeep/Pods-BeepBeep-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		ABFEB4B621B590CB001F0A5D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABFEB4C021B590CB001F0A5D /* ViewController.swift in Sources */,
+				ABFEB4C021B590CB001F0A5D /* MainController.swift in Sources */,
+				ABAF020D221CA324009FBB4F /* PopItUp.swift in Sources */,
+				AB819F8A21E7AAD40033B191 /* CheckViewController.swift in Sources */,
+				AB39AC6E21BECBBC004BCBDE /* NewMainController.swift in Sources */,
+				ABD6606121B5B30200A8801C /* LoginController.swift in Sources */,
+				ABE65D5321EA224C003A3259 /* Page.swift in Sources */,
+				AB25A9142218374C00FEB7A7 /* BounceButton.swift in Sources */,
+				AB39AC7321C19325004BCBDE /* SendMessageController.swift in Sources */,
+				AB819F8C21E7F76E0033B191 /* PageCell.swift in Sources */,
+				ABF6EBCE222720DF00BB7619 /* MessageBeenSent.swift in Sources */,
+				AB39AC7121BF0FB8004BCBDE /* User.swift in Sources */,
+				AB20690C21F6608A00F57C68 /* LastCell.swift in Sources */,
 				ABFEB4BE21B590CB001F0A5D /* AppDelegate.swift in Sources */,
+				AB7F531D21ED77D60030219C /* Extensions.swift in Sources */,
+				AB027C0521C41D2000544C83 /* Message.swift in Sources */,
+				ABF49E7C21F51636001CED09 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,9 +441,11 @@
 		};
 		ABFEB4CD21B590D1001F0A5D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A663BB91FD64F17E48181E2A /* Pods-BeepBeep.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QDQ552GS38;
 				INFOPLIST_FILE = BeepBeep/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -297,9 +460,11 @@
 		};
 		ABFEB4CE21B590D1001F0A5D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCB9410D969DA6D607DE9469 /* Pods-BeepBeep.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QDQ552GS38;
 				INFOPLIST_FILE = BeepBeep/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
